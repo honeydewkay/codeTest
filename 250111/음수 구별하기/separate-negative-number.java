@@ -8,6 +8,8 @@ public class Main {
         if(a < 0) {
             System.out.println(a);
             System.out.print("minus");
+        } else {
+            System.out.println(a);
         }
     }
 }
