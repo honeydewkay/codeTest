@@ -4,4 +4,4 @@ if a >= 3000:
 elif 1000 <= a < 2900:
     print("Mask")
 else:
-    print("Mnoask")
+    print("no")
