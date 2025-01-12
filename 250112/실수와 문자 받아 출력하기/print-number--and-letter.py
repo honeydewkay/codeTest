@@ -1,0 +1,8 @@
+c= input()
+a = input()
+a = float(a)
+b = input()
+b = float(b)
+print(c)
+print("{0:.2f}".format(a))
+print("{0:.2f}".format(b))
