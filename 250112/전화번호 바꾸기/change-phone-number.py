@@ -1,0 +1,6 @@
+a = input()
+arr = a.split("-")
+m = int(arr[0])
+n = int(arr[1])
+o = int(arr[2])
+print(f"010-{o}-{n}")
