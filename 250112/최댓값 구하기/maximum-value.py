@@ -8,5 +8,5 @@ if a2 > a3 and a2 > a4:
     print(a2)
 elif a3 > a4 and a3 > a2:
     print(a3)
-else:
+elif a4 > a3 and a4 > a2:
     print(a4)
