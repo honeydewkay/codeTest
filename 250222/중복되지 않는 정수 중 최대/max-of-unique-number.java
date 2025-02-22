@@ -8,7 +8,7 @@ public class Main {
         int N = sc.nextInt();
         int maxVal = INT_MIN;
         int arr[] = new int[1000];
-        int countArr[] = new int[1000];
+        int countArr[] = new int[1001];
         int cnt = 0;
         boolean check = false;
         
