@@ -4,8 +4,8 @@ public class Main {
 
     public static void gcd(int n, int m) {
         int val = 0;
-        for(int i = 1; i < 100; i++) {
-            if(i <= n && i < m) {
+        for(int i = 1; i <= 100; i++) {
+            if(i <= n && i <= m) {
                 if(n % i == 0 && m % i == 0) {
                     val = i;
                 }
