@@ -10,5 +10,5 @@ sum_val = 0
 for i in range(n):
     sum_val += under_250_val[i]
 avg = sum_val / n
-print(sum_val, avg)
+print(sum_val,f"{avg:.1f}")
     
