@@ -1,22 +1,14 @@
 num = list(map(int, input().split()))
-
-# for i in num:
-#     i >= 250:
-#         탈출
-#     else:
-#         마지막 원소 지우기
-# 연산
-# s = sum(num)
-# avg = s / len(num)
-# 프린트 s, avg
-    
+under_250_val = []
 for i in num:
-    if i >= 250:
-        break
+    if i < 250:
+        under_250_val.append(i)
     else:
-        num.pop()
-
-s = sum(num)
-avg = s / len(num)
-
-print(s, avg)
+        break
+n = len(under_250_val)
+sum_val = 0
+for i in range(n):
+    sum_val += under_250_val[i]
+avg = sum_val / n
+print(sum_val, avg)
+    
