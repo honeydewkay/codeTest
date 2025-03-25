@@ -8,4 +8,4 @@ for i in lst_3:
     sum_val_3 += i
     cnt += 1
 avg = sum_val_3 / cnt
-print(sum_val, avg, end=" ")
+print(sum_val, f"{avg:.1f}", end=" ")
