@@ -15,20 +15,19 @@ class Person {
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
-        String[] names = new String[n];
-        String[] addresses = new String[n];
-        String[] regions = new String[n];
+
         Person[] person = new Person[n];
 
         int index = 0;
         
         for (int i = 0; i < n; i++) {
 
-            names[i] = sc.next();
-            addresses[i] = sc.next();
-            regions[i] = sc.next();
-            person[i] = new Person(names[i], addresses[i], regions[i]);
+            String name = sc.next();
+            String addresse = sc.next();
+            String region = sc.next();
+            person[i] = new Person(name, addresse, region);
             
 
             if(person[i].names.compareTo(person[index].names) > 0) {
