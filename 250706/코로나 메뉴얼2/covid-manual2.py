@@ -17,6 +17,8 @@ for i in data:
 
 if clinic[0] >= 2:
     clinic[4] = 'E'
+else:
+    clinic[4] = ' '
 
 for i in clinic:
     print(i, end=" ")    
