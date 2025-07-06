@@ -2,4 +2,7 @@ arr = ['L', 'E', 'B', 'R', 'O', 'S']
 
 n = input()
 
-print(arr.index(n))
+if n not in arr:
+    print("None")
+else:    
+    print(arr.index(n))
