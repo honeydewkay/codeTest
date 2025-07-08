@@ -9,4 +9,5 @@ for i in a:
     if i < min_val:
         min_val = i
 
-print(min_val, a.index(min_val), end=" ")
+min_cnt = a.count(min_val)
+print(min_val, min_cnt, end=" ")
