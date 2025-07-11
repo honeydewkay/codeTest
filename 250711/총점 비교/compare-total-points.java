@@ -15,19 +15,15 @@ class Student implements Comparable<Student> {
     }
 
     @Override
-    public int compareTo(Student student) {
+    public int compareTo(Student student) { //오름차순
         return  this.sum - student.sum;
-    }
-    @Override
-public String toString() {
-    return name + " " + a + " " + b + " " + c;
-}   
-    
+    } 
 }
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt();
         Student[] student = new Student[n];
         int sum = 0;
@@ -42,8 +38,12 @@ public class Main {
         }
         
         Arrays.sort(student);
+
         for (int i = 0; i < n; i++) {
-            System.out.println(student[i] + " ");
+            System.out.print(student[i].name + " ");
+            System.out.print(student[i].a + " ");
+            System.out.print(student[i].b + " ");
+            System.out.println(student[i].c + " ");
         }
     }
     
